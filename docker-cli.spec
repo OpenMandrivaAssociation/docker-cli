@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:		docker-cli
-Version:	29.1.2
+Version:	29.1.3
 Release:	1
 Source0:	https://github.com/docker/cli/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Command line interface to the Docker container engine

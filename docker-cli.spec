@@ -11,6 +11,7 @@ Group:		Servers
 Recommends:	docker = %{version}
 BuildRequires:	golang
 BuildRequires:	go-md2man
+BuildRequires:	make
 Recommends:	(docker-zsh-completion = %{EVRD} if zsh)
 Recommends:	(docker-fish-completion = %{EVRD} if fish)
 

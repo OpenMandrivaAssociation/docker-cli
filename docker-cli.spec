@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:		docker-cli
-Version:	29.6.0
+Version:	29.7.0
 Release:	1
 Source0:	https://github.com/docker/cli/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Command line interface to the Docker container engine
@@ -35,7 +35,7 @@ Requires:       zsh
 Command line completion for Docker for the zsh shell
 
 %prep
-%autosetup -p1 -n cli-%{version}
+%autosetup -p1 -n cli-29.7.0
 
 %build
 mkdir -p src/github.com/docker

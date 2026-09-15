@@ -21,7 +21,6 @@ Command line interface to the Docker container engine
 %package -n docker-fish-completion
 Summary:        fish completion files for Docker
 Requires:       %{name} = %{EVRD}
-Requires:	fish
 
 %description -n docker-fish-completion
 Command line completion for Docker for the fish shell
@@ -29,7 +28,6 @@ Command line completion for Docker for the fish shell
 %package -n docker-zsh-completion
 Summary:        zsh completion files for Docker
 Requires:       %{name} = %{EVRD}
-Requires:       zsh
 
 %description -n docker-zsh-completion
 Command line completion for Docker for the zsh shell

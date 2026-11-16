@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:		docker-cli
-Version:	29.9.3
+Version:	29.10.0
 Release:	1
 Source0:	https://github.com/docker/cli/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 Summary:	Command line interface to the Docker container engine
@@ -9,7 +9,7 @@ URL:		https://github.com/docker-cli/docker-cli
 License:	Apache-2.0
 Group:		Servers
 Recommends:	docker = %{version}
-BuildRequires:	golang
+BuildRequires:	golang >= 1.27.4
 BuildRequires:	go-md2man
 BuildRequires:	make
 Recommends:	(docker-zsh-completion = %{EVRD} if zsh)
